@@ -1111,15 +1111,15 @@ ol, ul {
     font-family: 'Nunito Sans', sans-serif !important;
 }
 .nav-logo {
-    width: 35px !important;
+    width: 55px !important;
     margin-right: 10px;
 }
 .landing-logo {
-    width: 800px !important;
+    width: 400px !important;
     margin: auto;
 }
 .nav-title {
-    font-size: 25px !important;
+    font-size: 15px !important;
     color: #fff;
 }
 .owl-controls {
@@ -1127,6 +1127,15 @@ ol, ul {
 }
 #scrollUp {
     display: none !important;
+}
+#hero-video-bg {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    height: 100%;
+    width: 100vw;
+    max-height: 730px;
+    min-width: 100%;
 }
 @media (max-width: 491px) {
     .nav-title {
