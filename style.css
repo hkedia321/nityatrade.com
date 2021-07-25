@@ -1153,12 +1153,18 @@ ol, ul {
     .single-slide {
         background-image: url(images/glass-fac-bg.jpg);
     }
+    .testimonial-area {
+        margin-bottom: 0px !important;
+    }
 }
 
 @media (min-width: 769px) {
     .header-sticky {
         padding-left: 30px !important;
         padding-right: 30px !important;
+    }
+    .testimonial-area {
+        margin-bottom: 70px !important;
     }
 }
 .phone-link:hover {
