@@ -1139,13 +1139,26 @@ ol, ul {
 }
 @media (max-width: 491px) {
     .nav-title {
-        font-size: 20px !important;
+        font-size: 16px !important;
     }
     .nav-logo {
         width: 28px !important;
     }
     .mean-container a.meanmenu-reveal {
-        margin-top: -45px !important;
+        margin-top: -25px !important;
+    }
+    #hero-video-bg{
+        display: none;
+    }
+    .single-slide {
+        background-image: url(images/glass-fac-bg.jpg);
+    }
+}
+
+@media (min-width: 769px) {
+    .header-sticky {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
     }
 }
 .phone-link:hover {
