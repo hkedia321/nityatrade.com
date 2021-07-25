@@ -62,7 +62,7 @@
 }
 .about-content{margin-left: 40px}
 .about-image {
-    background-image: url("images/fruit_counter.JPG");
+    background-image: url("images/ntc.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1152,7 +1152,10 @@ ol, ul {
     color: #ec666b !important;
 }
 
-
+.slider-content {
+    z-index: 30;
+    position: relative;
+}
 
 
 
